@@ -10,8 +10,11 @@ Real time native notification for reddit using windows toast notifications.
 4. Run the bot using `python notification.py` and you should be good to go. 
 # Errors and FAQs.
 * I have some sort of error related to PRAW.
+
 It is most likely because you haven't entered your information in correctly. Remember, **beware of extra space and no new line after the last line**. Or your internet connection have some problems.
 * Package not found errors
+
 You most likely haven't installed the modules correctly. Please install the modules by going `pip install -r requirements.txt`
 * Can't find windows notifications popping up.
+
 You probably disabled the notifications. For Windows 10, go to "Action Center", and enable notifications. 
